@@ -1,4 +1,7 @@
 class LC_977:
+    def __init__(self):  # Constructor to initialize instance variable
+        self.results = []
+        
     def sortedSquares(self, nums):
             """
             Given an integer array nums sorted in non-decreasing order, 
